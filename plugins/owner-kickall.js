@@ -38,9 +38,8 @@ m.reply('⚠️ WhatsApp bloqueó la acción o ocurrió un error.')
 }
 }
 
-handler.customPrefix = /^(baneado kickall|banall|kikoall)$/i
-handler.command = new RegExp() // sin prefijo
+handler.command = /^(baneado kickall|banall|kikoall)$/i
 handler.group = true
 handler.botAdmin = true
 
-export default handler;
+export default handler
