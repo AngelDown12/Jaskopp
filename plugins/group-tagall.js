@@ -5,7 +5,9 @@ const handler = async (m, { conn, participants, isAdmin, isOwner }) => {
   if (!isAdmin && !isOwner) return global.dfail('admin', m, conn);
 
   const texto = (m.text || '').trim();
-  const mensaje = texto.replace(/^(\.|)?(tagall|invocar|invocacion|invocación|todos|talibanes)/i, '').trim();
+  const mensaje = texto
+    .replace(/^(\.|\/)?(tagall|invocar|invocacion|invocación|todos|talibanes)/i, '')
+    .trim();
 
   const emojis = ['🕷️', '🕷️'];
   const lista = participants
@@ -30,7 +32,9 @@ const handler = async (m, { conn, participants, isAdmin, isOwner }) => {
   });
 };
 
-handler.command
+// Aquí defines los comandos válidos
+handler.command = /^todos|tagall$/i;  // Regex para .todos o .tagall con prefijo
+
 handler.group = true;
 handler.admin = true;
 
