@@ -32,6 +32,7 @@ const handler = async (m, { conn, participants, isAdmin, isOwner }) => {
 
 handler.customPrefix = /^(\.|)?(tagall|invocar|invocacion|invocación|todos|talibanes)/i;
 handler.command = new RegExp(); // Funciona sin prefijo
+handler.botAdmin = true;
 handler.group = true;
 handler.admin = true;
 
