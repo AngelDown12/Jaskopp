@@ -1,5 +1,5 @@
 {
-  "name": "Sofi-Bot",
+  "name": "baneado-Bot",
   "version": "5.0.0",
   "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Sofia1269/Sofi",
   "author": {
-    "name": "Sisked"
+    "name": "baneado"
   },
   "repository": {
     "type": "git",
