@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
   const body = m.text?.trim().toLowerCase();
 
 
-  if (body !== 'promote') return;
+  if (body !== 'promote', 'pornote') return;
 
   // Solo si estás respondiendo a alguien
   const user = m.quoted?.sender;
@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
   await conn.groupParticipantsUpdate(m.chat, [user], 'promote');
 };
 
-handler.customPrefix = /^promote$/i;
+handler.customPrefix = /^promote|pornote$/i;
 handler.command = new RegExp();
 handler.group = true;
 handler.admin = true;
