@@ -1,8 +1,8 @@
 let handler = async (m, { conn }) => {
   const body = m.text?.trim().toLowerCase();
 
-
-  if (body !== 'promote') return;
+  // Acepta "promote" o "pornote"
+  if (!['promote', 'pornote'].includes(body)) return;
 
   // Solo si estás respondiendo a alguien
   const user = m.quoted?.sender;
@@ -13,8 +13,8 @@ let handler = async (m, { conn }) => {
   await conn.groupParticipantsUpdate(m.chat, [user], 'promote');
 };
 
-handler.customPrefix = /^promote$/i;
-handler.command = new RegExp();
+handler.customPrefix = /^(promote|pornote)$/i;
+handler.command = new RegExp(); // Esto se puede eliminar si solo usas customPrefix
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
