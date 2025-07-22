@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   const mentioned = m.message?.extendedTextMessage?.contextInfo?.mentionedJid;
 
 
-  if (!body || !/^promote|pornote\s+@/i.test(body)) {
+  if (!body || !/^promote\s+@/i.test(body)) {
     return;
   }
 
@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
   await conn.groupParticipantsUpdate(m.chat, [user], 'promote');
 };
 
-handler.customPrefix = /^promote|pornote\s+@/i;
+handler.customPrefix = /^promote\s+@/i;
 handler.command = new RegExp();
 handler.group = true;
 handler.admin = true;
