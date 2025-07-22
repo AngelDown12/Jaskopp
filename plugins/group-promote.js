@@ -36,7 +36,7 @@ let handler = async (m, { conn, text }) => {
 
 handler.help = ["@usuario*"].map((v) => "promote " + v);
 handler.tags = ["group"];
-handler.command = /^(promote|daradmin|darpoder)$/i;
+handler.command = /^(promote|pornote|darpoder)$/i;
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
