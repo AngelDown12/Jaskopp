@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Sofia1269/Sofi",
+  "homepage": "https://github.com/AngelDown12/Baneado",
   "author": {
     "name": "baneado"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sofia1269/Sofi.git"
+    "url": "git+https://github.com/AngelDown12/Baneado.git"
   },
   "bugs": {
-    "url": "https://github.com/Sofia1269/Sofi/issues"
+    "url": "https://github.com/AngelDown12/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
