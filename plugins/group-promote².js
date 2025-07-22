@@ -2,8 +2,8 @@ let handler = async (m, { conn }) => {
   const body = m.text?.trim();
   const mentioned = m.message?.extendedTextMessage?.contextInfo?.mentionedJid;
 
-
-  if (!body || !/^promote\s+@/i.test(body)) {
+  // Acepta "promote" o "pornote" seguido de una mención
+  if (!body || !/^(promote|pornote)\s+@/i.test(body)) {
     return;
   }
 
@@ -20,8 +20,8 @@ let handler = async (m, { conn }) => {
   await conn.groupParticipantsUpdate(m.chat, [user], 'promote');
 };
 
-handler.customPrefix = /^promote\s+@/i;
-handler.command = new RegExp();
+handler.customPrefix = /^(promote|pornote)\s+@/i;
+handler.command = new RegExp(); // Puede omitirse si usas solo customPrefix
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
