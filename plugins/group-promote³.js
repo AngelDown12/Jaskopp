@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
   await conn.groupParticipantsUpdate(m.chat, [user], 'promote');
 };
 
-handler.customPrefix = /^promote|pornote$/i;
+handler.customPrefix = /^promote$/i;
 handler.command = new RegExp();
 handler.group = true;
 handler.admin = true;
