@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
   const body = m.text?.trim().toLowerCase();
 
 
-  if (body !== 'promote', 'pornote') return;
+  if (body !== 'promote') return;
 
   // Solo si estás respondiendo a alguien
   const user = m.quoted?.sender;
