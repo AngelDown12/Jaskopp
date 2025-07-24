@@ -38,7 +38,7 @@ const handler = async (m, { conn, participants, isAdmin, isBotAdmin, isOwner }) 
   }
 }
 
-handler.customPrefix = /^(baneado kickall)/i;
+handler.customPrefix = /^(Bendito kickall)/i;
 handler.command = new RegExp;
 handler.group = true;
 handler.admin = true;
