@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "120363418345562911@newsletter",
       serverMessageId: 100,
-      newsletterName: '𝗕𝗮𝗻𝗲𝗮𝗱𝗼 𝗕𝗼𝘁',
+      newsletterName: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 𝗯𝗼𝘁',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://files.catbox.moe/eivdme.jpg',
+					thumbnailUrl: 'https://files.catbox.moe/9syqr3.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false
@@ -52,12 +52,12 @@ isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: "120363418345562911@newsletter",
 serverMessageId: 100,
-newsletterName: '𝗕𝗮𝗻𝗲𝗮𝗱𝗼 𝗕𝗼𝘁',
+newsletterName: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 𝗯𝗼𝘁',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: '𝗕𝗮𝗻𝗲𝗮𝗱𝗼 - 𝗕𝗼𝘁',
-body: '𝗕𝗮𝗻𝗲𝗮𝗱𝗼',
+title: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 - 𝗕𝗼𝘁',
+body: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7',
 previewType: "PHOTO",
 thumbnailUrl: 'https://files.catbox.moe/9syqr3.jpg',
 sourceUrl: '',
