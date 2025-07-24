@@ -141,10 +141,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
     let text = _text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-          let pp = 'https://files.catbox.moe/skcpb6.mp4'
+          let pp = 'https://files.catbox.moe/9syqr3.jpg'
 
     await conn.sendMessage(m.chat, {
-      video: { url: 'https://files.catbox.moe/cqyt08.mp4' },
+      video: { url: 'https://files.catbox.moe/9syqr3.jpg' },
       caption: text.trim(),
       gifPlayback: true
     }, { quoted: m })
