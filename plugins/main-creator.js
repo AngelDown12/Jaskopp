@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
   m.react('🌴')
 
   const imageUrl = 'https://files.catbox.moe/9syqr3.jpg'
-  const numCreador = '5213311901761'
+  const numCreador = '380968812534'
   const ownerJid = numCreador + '@s.whatsapp.net'
 
   const name = '𝗖𝗵𝗶𝗸𝗶𝘀 🌴'
