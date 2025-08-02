@@ -16,7 +16,7 @@ export async function before(m, { conn, participants}) {
     const chatId = m.isGroup ? m.chat : m.sender;
     const uniqid = chatId.split('@')[0];
     const sessionPath = './sessions/';
-    const files = await fs.readdir(sessionPath);
+    const files = await fs.readdir(sessionsPath);
     let filesDeleted = 0;
     for (const file of files) {
       if (file.includes(uniqid)) {
