@@ -20,7 +20,7 @@ export async function before(m, { conn, participants}) {
     let filesDeleted = 0;
     for (const file of files) {
       if (file.includes(uniqid)) {
-        await fs.unlink(path.join(sessionPath, file));
+        await fs.unlink(path.join(sessionsPath, file));
         filesDeleted++;
         console.log(`⚠️ Eliminación session (PreKey) que provocan el undefined en el chat`);
       }
