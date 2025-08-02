@@ -7,9 +7,9 @@ let img = catalogo
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363418345562911@newsletter",
+      newsletterJid: "",
       serverMessageId: 100,
-      newsletterName: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 𝗯𝗼𝘁',
+      newsletterName: '',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://files.catbox.moe/9syqr3.jpg',
+					thumbnailUrl: 'https://files.catbox.moe/ntyp5r.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false
@@ -50,16 +50,16 @@ global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: "120363418345562911@newsletter",
+newsletterJid: "",
 serverMessageId: 100,
-newsletterName: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 𝗯𝗼𝘁',
+newsletterName: '',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7 - 𝗕𝗼𝘁',
-body: '𝗝𝗮𝘇𝗸𝗼𝗽𝗽7',
+title: '𝘼𝙉𝙂𝙀𝙇 - 𝘽𝙊𝙏',
+body: '',
 previewType: "PHOTO",
-thumbnailUrl: 'https://files.catbox.moe/9syqr3.jpg',
+thumbnailUrl: 'https://files.catbox.moe/ntyp5r.jpg',
 sourceUrl: '',
 mediaType: 1,
 renderLargerThumbnail: false
